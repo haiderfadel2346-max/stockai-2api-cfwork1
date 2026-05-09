@@ -52,7 +52,7 @@ const CONFIG = {
     "deepseek/deepseek-chat-v3.1",
     "meta/llama-4-scout",
     "moonshotai/kimi-k2",
-    "z-ai/glm-4.6",
+    "z-ai/glm-5.1",
     "mistral/mistral-small",
     "qwen/qwen3-coder"
   ],
