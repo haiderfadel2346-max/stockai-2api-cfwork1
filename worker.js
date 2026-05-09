@@ -136,8 +136,10 @@ async function handleChatCompletions(request, requestId) {
     // 2. 构造上游 Payload
     const payload = {
       model: model,
-      webSearch: false, // 暂不支持联网，保持简单
-      id: generateRandomId(16), // 会话ID
+      webSearch: false,
+      targetLanguage: "zh-Hans",   // ← مطلوب من StockAI
+      targetDialect: "普通话",      // ← مطلوب من StockAI
+      id: generateRandomId(16),
       messages: convertedMessages,
       trigger: "submit-message"
     };
